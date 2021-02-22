@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "rendimento-poupanca/1.0.0": {
+        "runtime": {
+          "rendimento-poupanca.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "rendimento-poupanca/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

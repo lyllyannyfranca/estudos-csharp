@@ -1,0 +1,16 @@
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\multiplos-de-tres\bin\Debug\net5.0\multiplos-de-tres.exe
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\multiplos-de-tres\bin\Debug\net5.0\multiplos-de-tres.deps.json
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\multiplos-de-tres\bin\Debug\net5.0\multiplos-de-tres.runtimeconfig.json
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\multiplos-de-tres\bin\Debug\net5.0\multiplos-de-tres.runtimeconfig.dev.json
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\multiplos-de-tres\bin\Debug\net5.0\multiplos-de-tres.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\multiplos-de-tres\bin\Debug\net5.0\ref\multiplos-de-tres.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\multiplos-de-tres\bin\Debug\net5.0\multiplos-de-tres.pdb
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\multiplos-de-tres\obj\Debug\net5.0\multiplos-de-tres.csprojAssemblyReference.cache
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\multiplos-de-tres\obj\Debug\net5.0\multiplos-de-tres.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\multiplos-de-tres\obj\Debug\net5.0\multiplos-de-tres.AssemblyInfoInputs.cache
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\multiplos-de-tres\obj\Debug\net5.0\multiplos-de-tres.AssemblyInfo.cs
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\multiplos-de-tres\obj\Debug\net5.0\multiplos-de-tres.csproj.CoreCompileInputs.cache
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\multiplos-de-tres\obj\Debug\net5.0\multiplos-de-tres.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\multiplos-de-tres\obj\Debug\net5.0\ref\multiplos-de-tres.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\multiplos-de-tres\obj\Debug\net5.0\multiplos-de-tres.pdb
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\multiplos-de-tres\obj\Debug\net5.0\multiplos-de-tres.genruntimeconfig.cache

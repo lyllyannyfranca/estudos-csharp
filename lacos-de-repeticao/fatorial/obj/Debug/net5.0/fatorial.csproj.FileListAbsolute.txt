@@ -1,0 +1,16 @@
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\fatorial\bin\Debug\net5.0\fatorial.exe
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\fatorial\bin\Debug\net5.0\fatorial.deps.json
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\fatorial\bin\Debug\net5.0\fatorial.runtimeconfig.json
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\fatorial\bin\Debug\net5.0\fatorial.runtimeconfig.dev.json
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\fatorial\bin\Debug\net5.0\fatorial.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\fatorial\bin\Debug\net5.0\ref\fatorial.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\fatorial\bin\Debug\net5.0\fatorial.pdb
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\fatorial\obj\Debug\net5.0\fatorial.csprojAssemblyReference.cache
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\fatorial\obj\Debug\net5.0\fatorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\fatorial\obj\Debug\net5.0\fatorial.AssemblyInfoInputs.cache
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\fatorial\obj\Debug\net5.0\fatorial.AssemblyInfo.cs
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\fatorial\obj\Debug\net5.0\fatorial.csproj.CoreCompileInputs.cache
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\fatorial\obj\Debug\net5.0\fatorial.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\fatorial\obj\Debug\net5.0\ref\fatorial.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\fatorial\obj\Debug\net5.0\fatorial.pdb
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\fatorial\obj\Debug\net5.0\fatorial.genruntimeconfig.cache

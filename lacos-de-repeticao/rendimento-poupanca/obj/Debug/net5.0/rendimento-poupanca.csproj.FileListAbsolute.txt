@@ -1,0 +1,16 @@
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\rendimento-poupanca\obj\Debug\net5.0\rendimento-poupanca.csprojAssemblyReference.cache
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\rendimento-poupanca\obj\Debug\net5.0\rendimento-poupanca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\rendimento-poupanca\obj\Debug\net5.0\rendimento-poupanca.AssemblyInfoInputs.cache
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\rendimento-poupanca\obj\Debug\net5.0\rendimento-poupanca.AssemblyInfo.cs
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\rendimento-poupanca\obj\Debug\net5.0\rendimento-poupanca.csproj.CoreCompileInputs.cache
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\rendimento-poupanca\bin\Debug\net5.0\rendimento-poupanca.exe
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\rendimento-poupanca\bin\Debug\net5.0\rendimento-poupanca.deps.json
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\rendimento-poupanca\bin\Debug\net5.0\rendimento-poupanca.runtimeconfig.json
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\rendimento-poupanca\bin\Debug\net5.0\rendimento-poupanca.runtimeconfig.dev.json
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\rendimento-poupanca\bin\Debug\net5.0\rendimento-poupanca.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\rendimento-poupanca\bin\Debug\net5.0\ref\rendimento-poupanca.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\rendimento-poupanca\bin\Debug\net5.0\rendimento-poupanca.pdb
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\rendimento-poupanca\obj\Debug\net5.0\rendimento-poupanca.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\rendimento-poupanca\obj\Debug\net5.0\ref\rendimento-poupanca.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\rendimento-poupanca\obj\Debug\net5.0\rendimento-poupanca.pdb
+C:\Users\lylly\Desktop\workspace\estudos-csharp\lacos-de-repeticao\rendimento-poupanca\obj\Debug\net5.0\rendimento-poupanca.genruntimeconfig.cache

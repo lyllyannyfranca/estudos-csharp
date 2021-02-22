@@ -1,0 +1,16 @@
+C:\Users\lylly\Desktop\workspace\estudos-csharp\booleanos\permissao-festa\bin\Debug\net5.0\permissao-festa.exe
+C:\Users\lylly\Desktop\workspace\estudos-csharp\booleanos\permissao-festa\bin\Debug\net5.0\permissao-festa.deps.json
+C:\Users\lylly\Desktop\workspace\estudos-csharp\booleanos\permissao-festa\bin\Debug\net5.0\permissao-festa.runtimeconfig.json
+C:\Users\lylly\Desktop\workspace\estudos-csharp\booleanos\permissao-festa\bin\Debug\net5.0\permissao-festa.runtimeconfig.dev.json
+C:\Users\lylly\Desktop\workspace\estudos-csharp\booleanos\permissao-festa\bin\Debug\net5.0\permissao-festa.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\booleanos\permissao-festa\bin\Debug\net5.0\ref\permissao-festa.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\booleanos\permissao-festa\bin\Debug\net5.0\permissao-festa.pdb
+C:\Users\lylly\Desktop\workspace\estudos-csharp\booleanos\permissao-festa\obj\Debug\net5.0\permissao-festa.csprojAssemblyReference.cache
+C:\Users\lylly\Desktop\workspace\estudos-csharp\booleanos\permissao-festa\obj\Debug\net5.0\permissao-festa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lylly\Desktop\workspace\estudos-csharp\booleanos\permissao-festa\obj\Debug\net5.0\permissao-festa.AssemblyInfoInputs.cache
+C:\Users\lylly\Desktop\workspace\estudos-csharp\booleanos\permissao-festa\obj\Debug\net5.0\permissao-festa.AssemblyInfo.cs
+C:\Users\lylly\Desktop\workspace\estudos-csharp\booleanos\permissao-festa\obj\Debug\net5.0\permissao-festa.csproj.CoreCompileInputs.cache
+C:\Users\lylly\Desktop\workspace\estudos-csharp\booleanos\permissao-festa\obj\Debug\net5.0\permissao-festa.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\booleanos\permissao-festa\obj\Debug\net5.0\ref\permissao-festa.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\booleanos\permissao-festa\obj\Debug\net5.0\permissao-festa.pdb
+C:\Users\lylly\Desktop\workspace\estudos-csharp\booleanos\permissao-festa\obj\Debug\net5.0\permissao-festa.genruntimeconfig.cache
