@@ -1,0 +1,16 @@
+C:\Users\lylly\Desktop\workspace\estudos-csharp\orientacao-a-objetos\poo-excecoes\excecao-divisao-por-zero\bin\Debug\net5.0\excecao-divisao-por-zero.exe
+C:\Users\lylly\Desktop\workspace\estudos-csharp\orientacao-a-objetos\poo-excecoes\excecao-divisao-por-zero\bin\Debug\net5.0\excecao-divisao-por-zero.deps.json
+C:\Users\lylly\Desktop\workspace\estudos-csharp\orientacao-a-objetos\poo-excecoes\excecao-divisao-por-zero\bin\Debug\net5.0\excecao-divisao-por-zero.runtimeconfig.json
+C:\Users\lylly\Desktop\workspace\estudos-csharp\orientacao-a-objetos\poo-excecoes\excecao-divisao-por-zero\bin\Debug\net5.0\excecao-divisao-por-zero.runtimeconfig.dev.json
+C:\Users\lylly\Desktop\workspace\estudos-csharp\orientacao-a-objetos\poo-excecoes\excecao-divisao-por-zero\bin\Debug\net5.0\excecao-divisao-por-zero.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\orientacao-a-objetos\poo-excecoes\excecao-divisao-por-zero\bin\Debug\net5.0\ref\excecao-divisao-por-zero.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\orientacao-a-objetos\poo-excecoes\excecao-divisao-por-zero\bin\Debug\net5.0\excecao-divisao-por-zero.pdb
+C:\Users\lylly\Desktop\workspace\estudos-csharp\orientacao-a-objetos\poo-excecoes\excecao-divisao-por-zero\obj\Debug\net5.0\excecao-divisao-por-zero.csprojAssemblyReference.cache
+C:\Users\lylly\Desktop\workspace\estudos-csharp\orientacao-a-objetos\poo-excecoes\excecao-divisao-por-zero\obj\Debug\net5.0\excecao-divisao-por-zero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lylly\Desktop\workspace\estudos-csharp\orientacao-a-objetos\poo-excecoes\excecao-divisao-por-zero\obj\Debug\net5.0\excecao-divisao-por-zero.AssemblyInfoInputs.cache
+C:\Users\lylly\Desktop\workspace\estudos-csharp\orientacao-a-objetos\poo-excecoes\excecao-divisao-por-zero\obj\Debug\net5.0\excecao-divisao-por-zero.AssemblyInfo.cs
+C:\Users\lylly\Desktop\workspace\estudos-csharp\orientacao-a-objetos\poo-excecoes\excecao-divisao-por-zero\obj\Debug\net5.0\excecao-divisao-por-zero.csproj.CoreCompileInputs.cache
+C:\Users\lylly\Desktop\workspace\estudos-csharp\orientacao-a-objetos\poo-excecoes\excecao-divisao-por-zero\obj\Debug\net5.0\excecao-divisao-por-zero.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\orientacao-a-objetos\poo-excecoes\excecao-divisao-por-zero\obj\Debug\net5.0\ref\excecao-divisao-por-zero.dll
+C:\Users\lylly\Desktop\workspace\estudos-csharp\orientacao-a-objetos\poo-excecoes\excecao-divisao-por-zero\obj\Debug\net5.0\excecao-divisao-por-zero.pdb
+C:\Users\lylly\Desktop\workspace\estudos-csharp\orientacao-a-objetos\poo-excecoes\excecao-divisao-por-zero\obj\Debug\net5.0\excecao-divisao-por-zero.genruntimeconfig.cache
