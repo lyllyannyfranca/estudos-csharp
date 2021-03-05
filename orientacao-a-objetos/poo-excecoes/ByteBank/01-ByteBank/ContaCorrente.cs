@@ -8,82 +8,80 @@ namespace _01_ByteBank
     {
         public Cliente Titular { get; set; }
 
-        private int _agencia;
-
-        public int Agencia {
-            get 
-            {
-                return _agencia;
-            }
-            private set 
-            {
-                if (value <= 0)
-                {
-                    return;
-                }
-
-                _agencia = value;
-            } 
-        }
+        public int Agencia { get; }
         
         public int Numero { get; private set; }
-
-        private double _saldo;
         
-        public double Saldo
-        {
-            get
-            {
-                return _saldo;
-            }
-            private set
-            {
-                if (value < 0)
-                {
-                    return;
-                }
+        public double Saldo { get; private set; }
 
-                _saldo = value;
-            }
-        }
+        public int ContadorSaquesNaoPermitidos { get; private set; }
+
+        public int ContadorTransferenciasNaoPermitidas { get; private set; }
 
         public static int TotalDeContasCorrentes { get; private set; }
+
+        public static int TaxaDeOperacao { get; private set; }
 
         public ContaCorrente(int agencia, int numeroDaConta)
         {
             Titular = new Cliente();
-            Agencia = agencia;
-            Numero = numeroDaConta;
-            Saldo = 100;
-            TotalDeContasCorrentes++;
-        }
 
-        public bool Sacar(double valor)
-        {
-            if (_saldo < valor)
+            if (agencia <= 0)
             {
-                return false;
+                throw new ArgumentException($"O argumento {nameof(agencia)} deve ser maior que 0!");
             }
 
-            _saldo -= valor;
-            return true;
+            if (numeroDaConta <= 0)
+            {
+                throw new ArgumentException($"O argumento {nameof(numeroDaConta)} deve ser maior que 0!");
+            }
+
+            Agencia = agencia;
+            Numero = numeroDaConta;
+
+            TotalDeContasCorrentes++;
+
+            TaxaDeOperacao = 30 / TotalDeContasCorrentes;
+        }
+
+        public void Sacar(double valor)
+        {
+            if (valor < 0)
+            {
+                throw new ArgumentException($"Valor de saque não pode ser negativo, {nameof(valor)}");
+            }
+
+            if (Saldo < valor)
+            {
+                ContadorSaquesNaoPermitidos++;
+                throw new SaldoInsuficienteException(Saldo, valor);
+            }
+
+            Saldo -= valor;
         }
 
         public void Depositar(double valor)
         {
-            _saldo += valor;
+            Saldo += valor;
         }
 
-        public bool Transferir(double valor, ContaCorrente contaDestino)
+        public void Transferir(double valor, ContaCorrente contaDestino)
         {
-            if (_saldo < valor)
+            if (valor < 0)
             {
-                return false;
+                throw new ArgumentException($"Valor inválido para transferência. {nameof(valor)}");
             }
 
-            _saldo -= valor;
+            try
+            {
+                Sacar(valor);
+            }
+            catch (SaldoInsuficienteException e)
+            {
+                ContadorTransferenciasNaoPermitidas++;
+                throw new OperacaoFinanceiraException("Operação não realizada!", e);
+            }
             contaDestino.Depositar(valor);
-            return true;
         }
     }
 }

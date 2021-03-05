@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lylly\\Desktop\\workspace\\estudos-csharp\\orientacao-a-objetos\\ByteBank\\01-ByteBank\\01-ByteBank.csproj": {}
+    "C:\\Users\\lylly\\Desktop\\workspace\\estudos-csharp\\orientacao-a-objetos\\poo-excecoes\\ByteBank\\01-ByteBank\\01-ByteBank.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lylly\\Desktop\\workspace\\estudos-csharp\\orientacao-a-objetos\\ByteBank\\01-ByteBank\\01-ByteBank.csproj": {
+    "C:\\Users\\lylly\\Desktop\\workspace\\estudos-csharp\\orientacao-a-objetos\\poo-excecoes\\ByteBank\\01-ByteBank\\01-ByteBank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lylly\\Desktop\\workspace\\estudos-csharp\\orientacao-a-objetos\\ByteBank\\01-ByteBank\\01-ByteBank.csproj",
+        "projectUniqueName": "C:\\Users\\lylly\\Desktop\\workspace\\estudos-csharp\\orientacao-a-objetos\\poo-excecoes\\ByteBank\\01-ByteBank\\01-ByteBank.csproj",
         "projectName": "01-ByteBank",
-        "projectPath": "C:\\Users\\lylly\\Desktop\\workspace\\estudos-csharp\\orientacao-a-objetos\\ByteBank\\01-ByteBank\\01-ByteBank.csproj",
+        "projectPath": "C:\\Users\\lylly\\Desktop\\workspace\\estudos-csharp\\orientacao-a-objetos\\poo-excecoes\\ByteBank\\01-ByteBank\\01-ByteBank.csproj",
         "packagesPath": "C:\\Users\\lylly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lylly\\Desktop\\workspace\\estudos-csharp\\orientacao-a-objetos\\ByteBank\\01-ByteBank\\obj\\",
+        "outputPath": "C:\\Users\\lylly\\Desktop\\workspace\\estudos-csharp\\orientacao-a-objetos\\poo-excecoes\\ByteBank\\01-ByteBank\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lylly\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

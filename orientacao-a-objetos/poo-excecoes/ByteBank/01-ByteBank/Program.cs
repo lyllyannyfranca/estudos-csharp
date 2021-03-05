@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace _01_ByteBank
 {
@@ -6,42 +7,87 @@ namespace _01_ByteBank
     {
         static void Main(string[] args)
         {
-            ContaCorrente conta = new ContaCorrente(863, 8634561) ;
+            try
+            {
+                CarregarContas();            
+            }
+            catch(Exception )
+            {
+                Console.WriteLine("CATH NO MÉTODO MAIN");
+            }
+        }
 
-            conta.Titular.Nome = "Gabriela";
-            conta.Titular.CPF = "123.456.789-00";
-            conta.Titular.Profissao = "Desenvolvedora C#";
-
-            Console.WriteLine($"Titular: {conta.Titular.Nome}");
-            Console.WriteLine($"Agência: {conta.Agencia}");
-            Console.WriteLine($"Número da conta: {conta.Numero}");
-            Console.WriteLine($"Saldo: {conta.Saldo}");
-
-            Console.WriteLine("=================================== \n");
+        public static void CarregarContas()
+        {
+            //Sugar Sintax
+            using (LeitorDeArquivo leitor = new LeitorDeArquivo("contas.txt"))
+            {
+                for(int i=0; i <= 3; i++)
+                {
+                    leitor.LerProximaLinha();
+                }
+            }
             
-            conta.Depositar(200);
-
-            Console.WriteLine($"Novo saldo da Gabriela: {conta.Saldo}");
-
-            Console.WriteLine("=================================== \n");
-
-            ContaCorrente conta2 = new ContaCorrente(863, 8631236);
-
-            conta2.Titular.Nome = "Bruno";
-            conta2.Titular.CPF = "123.456.987-10";
-            conta2.Titular.Profissao = "Engenheiro Civil";
-
-            Console.WriteLine($"Titular: {conta2.Titular.Nome}");
-            Console.WriteLine($"Agência: {conta2.Agencia}");
-            Console.WriteLine($"Número da Conta: {conta2.Numero}");
-            Console.WriteLine($"Saldo: {conta2.Saldo}\n");
+            //Código abaixo é a mesma coisa que do código acima
             
-            conta.Transferir(100, conta2);
+            //try
+            //{
+            //    leitor = new LeitorDeArquivo("contas.txt");
+                
+            //    for(int i=0; i <= 3; i++)
+            //    {
+            //        leitor.LerProximaLinha();
+            //    }
+            //}
+            //catch(IOException e)
+            //{
+            //    Console.WriteLine("Exceção do tipo IOException capturada e tratada.");
+            //}
+            //finally
+            //{
+            //    if(leitor != null)
+            //    {
+            //        leitor.Fechar();
+            //    }
+            //}
+        }
 
-            Console.WriteLine($"Novo saldo de Gabriela: {conta.Saldo}\n");
-            Console.WriteLine($"Novo saldo de Bruno: {conta2.Saldo}\n");
+        public static void TestaInnerException()
+        {
+            try
+            {
+                ContaCorrente conta = new ContaCorrente(456, 3455);
+                ContaCorrente conta2 = new ContaCorrente(567, 2135);
 
-            Console.WriteLine($"Total de Contas Correntes abertas: {ContaCorrente.TotalDeContasCorrentes}");
+                conta.Depositar(400);
+                Console.WriteLine($"Novo saldo após depósito: {conta.Saldo}\n");
+
+                conta.Sacar(100);
+                Console.WriteLine($"Novo saldo após saque: {conta.Saldo}\n");
+
+                conta.Transferir(200, conta2);
+                Console.WriteLine($"Conta 1 -> Novo Saldo após realizar a transferência: {conta.Saldo}\n");
+                Console.WriteLine($"Conta 2 -> Novo Saldo após recebimento da transferência: {conta2.Saldo}");
+            }
+            catch (ArgumentException e)
+            {
+                Console.WriteLine(e.Message);
+                Console.WriteLine(e.ParamName);
+            }
+            catch (SaldoInsuficienteException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch (OperacaoFinanceiraException e)
+            {
+                Console.WriteLine(e.Message);
+                Console.WriteLine(e.StackTrace);
+                
+                Console.WriteLine("\n Informações da INNER EXCEPTION (Exceção interna) \n");
+                
+                Console.WriteLine(e.InnerException.Message);
+                Console.WriteLine(e.InnerException.StackTrace);
+            }
         }
     }
 }
